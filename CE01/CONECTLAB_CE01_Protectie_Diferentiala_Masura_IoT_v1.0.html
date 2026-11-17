@@ -232,30 +232,7 @@ input[type=range]{accent-color:var(--teal)}
 
   <div class="card">
     <h2>Schema de principiu</h2>
-    <svg viewBox="0 0 960 300" width="100%" role="img" aria-label="Schema: rețea, releu Sinotimer, sarcină, Wi-Fi spre Home Assistant">
-      <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0b2f4a"/></marker></defs>
-      <rect x="20" y="70" width="140" height="120" rx="12" fill="#e0f4f4" stroke="#00838f"/>
-      <text x="90" y="118" text-anchor="middle" font-weight="700" fill="#0b2f4a">Rețea</text>
-      <text x="90" y="140" text-anchor="middle" font-size="14">230 V / 50 Hz</text>
-      <line x1="160" y1="105" x2="330" y2="105" stroke="#b42318" stroke-width="5"/><text x="240" y="96" text-anchor="middle" fill="#b42318" font-weight="700">L</text>
-      <line x1="160" y1="155" x2="330" y2="155" stroke="#1d4ed8" stroke-width="5"/><text x="240" y="178" text-anchor="middle" fill="#1d4ed8" font-weight="700">N</text>
-      <rect x="330" y="40" width="250" height="180" rx="14" fill="#fff" stroke="#0b2f4a" stroke-width="2"/>
-      <text x="455" y="66" text-anchor="middle" font-weight="700" fill="#0b2f4a">Sinotimer SVP-688W</text>
-      <ellipse cx="400" cy="130" rx="26" ry="52" fill="none" stroke="#d97706" stroke-width="7"/>
-      <text x="400" y="205" text-anchor="middle" font-size="12" fill="#d97706">tor diferențial</text>
-      <rect x="450" y="88" width="110" height="34" rx="6" fill="#0f1d2b"/><text x="505" y="111" text-anchor="middle" fill="#7cf3c0" font-size="14">V · A · kW · mA</text>
-      <rect x="450" y="135" width="110" height="34" rx="6" fill="#e7f6ec" stroke="#15803d"/><text x="505" y="157" text-anchor="middle" font-size="13" fill="#15803d">releu + MCU Wi-Fi</text>
-      <line x1="580" y1="105" x2="740" y2="105" stroke="#b42318" stroke-width="5"/>
-      <line x1="580" y1="155" x2="740" y2="155" stroke="#1d4ed8" stroke-width="5"/>
-      <rect x="740" y="80" width="190" height="100" rx="12" fill="#fff4e0" stroke="#d97706"/>
-      <text x="835" y="125" text-anchor="middle" font-weight="700" fill="#0b2f4a">Sarcină</text>
-      <text x="835" y="147" text-anchor="middle" font-size="13">R / L / mixtă</text>
-      <path d="M505 220 V265 H700" stroke="#0b2f4a" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#ar)"/>
-      <rect x="705" y="240" width="225" height="48" rx="10" fill="#0b2f4a"/>
-      <text x="818" y="262" text-anchor="middle" fill="#fff" font-weight="700">Home Assistant (LAN)</text>
-      <text x="818" y="280" text-anchor="middle" fill="#bfe7ea" font-size="12">LocalTuya · TCP 6668 · fără cloud</text>
-      <text x="600" y="258" text-anchor="middle" font-size="12" fill="#5b6b7b">Wi-Fi</text>
-    </svg>
+    <div id="schemaDev"></div>
   </div>
 </section>
 
@@ -365,29 +342,8 @@ input[type=range]{accent-color:var(--teal)}
         <div role="status" id="sMsg"></div>
       </div>
       <div>
-        <svg viewBox="0 0 360 420" width="100%" role="img" aria-label="Ecranul releului simulat">
-          <defs><linearGradient id="bd2" x2="1"><stop offset="0" stop-color="#d9dde2"/><stop offset=".5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#cfd4da"/></linearGradient></defs>
-          <rect x="30" y="10" width="300" height="400" rx="16" fill="url(#bd2)" stroke="#9aa0a6" stroke-width="2"/>
-          <g fill="#6b7280">
-            <circle cx="90" cy="35" r="9"/><circle cx="150" cy="35" r="9"/><circle cx="210" cy="35" r="9"/><circle cx="270" cy="35" r="9"/>
-            <circle cx="90" cy="385" r="9"/><circle cx="150" cy="385" r="9"/><circle cx="210" cy="385" r="9"/><circle cx="270" cy="385" r="9"/>
-          </g>
-          <text x="180" y="72" text-anchor="middle" font-weight="700" fill="#0b2f4a" font-size="15">SINOTIMER · SVP-688W</text>
-          <rect x="60" y="85" width="240" height="160" rx="8" fill="#0f2a1f" stroke="#334"/>
-          <g font-family="Consolas,monospace" fill="#7cf3c0">
-            <text x="75" y="115" font-size="13" fill="#5fbf98">kWh</text><text x="285" y="115" text-anchor="end" font-size="22" id="dE">0.00</text>
-            <text x="75" y="148" font-size="13" fill="#5fbf98">V</text><text x="180" y="148" text-anchor="end" font-size="22" id="dV">230.0</text>
-            <text x="194" y="148" font-size="13" fill="#5fbf98">mA</text><text x="285" y="148" text-anchor="end" font-size="19" id="dL">0</text>
-            <text x="75" y="181" font-size="13" fill="#5fbf98">A</text><text x="180" y="181" text-anchor="end" font-size="22" id="dI">0.435</text>
-            <text x="194" y="181" font-size="13" fill="#5fbf98">kW</text><text x="285" y="181" text-anchor="end" font-size="19" id="dP">0.1000</text>
-            <text x="180" y="225" text-anchor="middle" font-size="24" font-weight="700" id="dS">ON</text>
-          </g>
-          <circle cx="110" cy="280" r="9" id="ledP" fill="#22c55e"/><text x="110" y="305" text-anchor="middle" font-size="11">POWER</text>
-          <circle cx="180" cy="280" r="9" id="ledW" fill="#3b82f6"/><text x="180" y="305" text-anchor="middle" font-size="11">Wi-Fi</text>
-          <circle cx="250" cy="280" r="9" id="ledA" fill="#4b5563"/><text x="250" y="305" text-anchor="middle" font-size="11">ALARM</text>
-          <rect x="140" y="320" width="80" height="40" rx="8" id="lever" fill="#15803d"/><text x="180" y="346" text-anchor="middle" fill="#fff" font-weight="700" id="leverT">I</text>
-        </svg>
-        <p style="font-size:12px;color:#5b6b7b;text-align:center;margin:0">Contorul de energie rulează accelerat (×60), ca să se vadă cum crește.</p>
+        <div id="simDev" style="max-width:340px;margin:0 auto"></div>
+        <p style="font-size:12px;color:#5b6b7b;text-align:center;margin:0">Butonul roșu de pe aparat se poate apăsa (pornit / oprit). Contorul de energie rulează accelerat (×60).</p>
       </div>
     </div>
   </div>
@@ -547,6 +503,21 @@ input[type=range]{accent-color:var(--teal)}
 <footer><div class="wrap">ConectLab EB104 · UPB · Facultatea de Inginerie Electrică · DMAECS · Conf. dr. ing. Florin Argatu · CONECTLAB_CE01_Protectie_Diferentiala_Masura_IoT_v1.0</div></footer>
 
 <script>
+const SINO_STATIC=`<defs><linearGradient id='stbd'><stop offset='0' stop-color='#d9dde2'/><stop offset='.5' stop-color='#f4f6f8'/><stop offset='1' stop-color='#cfd4da'/></linearGradient><linearGradient id='stfc' x2='0' y2='1'><stop offset='0' stop-color='#e9ecef'/><stop offset='1' stop-color='#d6dade'/></linearGradient><radialGradient id='stsc'><stop offset='0' stop-color='#e8e8e8'/><stop offset='.7' stop-color='#9aa0a6'/><stop offset='1' stop-color='#5f656b'/></radialGradient><filter id='stsh' x='-20%' y='-10%' width='140%' height='130%'><feDropShadow dy='10' stdDeviation='12' flood-opacity='.65'/></filter></defs><g filter='url(#stsh)'><rect x='490' y='105' width='340' height='105' rx='6' fill='url(#stbd)'/><rect x='470' y='200' width='380' height='470' rx='10' fill='url(#stbd)' stroke='#b9c0c7'/><rect x='490' y='660' width='340' height='135' rx='6' fill='url(#stbd)'/></g><circle cx='565' cy='155' r='26' fill='#fff' stroke='#c9ced3'/><circle cx='565' cy='155' r='19' fill='url(#stsc)'/><path d='M554 155H576M565 144V166' stroke='#555' stroke-width='3'/><circle cx='755' cy='155' r='26' fill='#fff' stroke='#c9ced3'/><circle cx='755' cy='155' r='19' fill='url(#stsc)'/><path d='M744 155H766M755 144V166' stroke='#555' stroke-width='3'/><circle cx='565' cy='740' r='26' fill='#fff' stroke='#c9ced3'/><circle cx='565' cy='740' r='19' fill='url(#stsc)'/><path d='M554 740H576M565 729V751' stroke='#555' stroke-width='3'/><circle cx='755' cy='740' r='26' fill='#fff' stroke='#c9ced3'/><circle cx='755' cy='740' r='19' fill='url(#stsc)'/><path d='M744 740H766M755 729V751' stroke='#555' stroke-width='3'/><rect x='632' y='137' width='56' height='36' rx='4' fill='#eef0f2' stroke='#cdd2d7'/><rect x='626' y='722' width='68' height='36' rx='4' fill='#eef0f2' stroke='#cdd2d7'/><text x='660' y='164' font-family='Arial' font-size='22' fill='#9aa1a8' text-anchor='middle'>IN</text><text x='660' y='749' font-family='Arial' font-size='22' fill='#9aa1a8' text-anchor='middle'>OUT</text><text x='565' y='698' font-family='Arial' font-size='20' fill='#9aa1a8' text-anchor='middle'>N</text><text x='755' y='698' font-family='Arial' font-size='20' fill='#9aa1a8' text-anchor='middle'>L</text><rect x='482' y='215' width='356' height='430' rx='8' fill='url(#stfc)' stroke='#c3c9cf'/><text x='500' y='253' font-family='Arial' font-size='21' fill='#d6231f' font-weight='900'>SINOTIMER</text><text x='630' y='252' font-family='Arial' font-size='13' fill='#5a636c' >WiFi-Smart Meter&amp;Energy Protector</text><text transform='translate(492,337) rotate(90)' font-family='Arial' font-weight='700' font-size='13' fill='#3d454d'>SVP-688W</text><text x='486' y='490' font-family='Arial' font-size='15' fill='#3d454d' font-weight='700'>CE</text><rect x='506' y='299' width='308' height='192' rx='6' fill='#8b9198'/><rect x='512' y='305' width='296' height='180' rx='3' fill='#050608'/><g transform='translate(524,357) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='46' fill='#2a1010' letter-spacing='2'>8888</text></g><g transform='translate(672,357) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='50' fill='#2a1010' letter-spacing='2'>888</text></g><g transform='translate(534,415) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='44' fill='#121a36' letter-spacing='2'>888</text></g><g transform='translate(672,415) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='40' fill='#0f240f' letter-spacing='2'>888</text></g><g transform='translate(524,468) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='44' fill='#0f240f' letter-spacing='2'>888</text></g><g transform='translate(672,468) skewX(-6)'><text font-family='Consolas,monospace' font-weight='700' font-size='44' fill='#0f240f' letter-spacing='2'>888</text></g><text x='774' y='377' font-family='Arial' font-size='14' fill='#ff3b30' font-weight='700'>KW/h</text><text x='642' y='415' font-family='Arial' font-size='14' fill='#6f8cff' >V</text><text x='642' y='470' font-family='Arial' font-size='14' fill='#5fdc5f' >A</text><text x='774' y='417' font-family='Arial' font-size='14' fill='#5fdc5f' >mA</text><rect x='818' y='375' width='18' height='44' rx='3' fill='none' stroke='#7a828a'/><text x='522' y='535' font-family='Arial' font-size='12' fill='#4a535c' text-anchor='middle'>PULSE</text><circle cx='522' cy='553' r='8' fill='#9aa1a8' stroke='#6b737b'/><text x='590' y='535' font-family='Arial' font-size='12' fill='#4a535c' text-anchor='middle'>WIFI</text><circle cx='590' cy='553' r='8' fill='#9aa1a8' stroke='#6b737b'/><text x='658' y='535' font-family='Arial' font-size='12' fill='#4a535c' text-anchor='middle'>V</text><circle cx='658' cy='553' r='8' fill='#9aa1a8' stroke='#6b737b'/><text x='726' y='535' font-family='Arial' font-size='12' fill='#4a535c' text-anchor='middle'>A</text><circle cx='726' cy='553' r='8' fill='#9aa1a8' stroke='#6b737b'/><text x='794' y='535' font-family='Arial' font-size='12' fill='#4a535c' text-anchor='middle'>LEAKAGE</text><circle cx='794' cy='553' r='8' fill='#9aa1a8' stroke='#6b737b'/><rect x='508' y='575' width='62' height='54' rx='8' fill='#f2f3f5' stroke='#c6ccd2'/><rect x='584' y='575' width='62' height='54' rx='8' fill='#f2f3f5' stroke='#c6ccd2'/><rect x='660' y='575' width='62' height='54' rx='8' fill='#f2f3f5' stroke='#c6ccd2'/><text x='539' y='610' font-family='Arial' font-size='17' fill='#2c5bd6' text-anchor='middle' font-weight='900'>SET</text><path d='M615 589l13 22h-26z' fill='#1e9aa6'/><text x='691' y='598' font-family='Arial' font-size='14' fill='#2c5bd6' text-anchor='middle' font-weight='900'>WIFI</text><path d='M691 621l-11-14h22z' fill='#1e9aa6'/><rect x='736' y='575' width='62' height='54' rx='8' fill='#e5302b' stroke='#b81f1b'/><path d='M758 593a14 14 0 1 0 20 0M768 587V603' fill='none' stroke='#fff' stroke-width='4' stroke-linecap='round'/>`;
+function sinoSVG(p,vb,extra){extra=extra||{};
+ const L=(id,x,y,sz,c,t)=>`<g transform="translate(${x},${y}) skewX(-6)"><text id="${p}${id}" text-anchor="middle" dominant-baseline="central" font-family="Consolas,'Courier New',monospace" font-weight="700" font-size="${sz}" fill="${c}" letter-spacing="2" style="filter:drop-shadow(0 0 5px ${c})">${t}</text></g>`;
+ const leds=[522,590,658,726,794].map((x,i)=>`<circle id="${p}led${i}" cx="${x}" cy="553" r="8" fill="#9aa1a8"/>`).join('');
+ const w=(d,c)=>`<path d="${d}" fill="none" stroke="${c}" stroke-width="16" opacity=".22" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`;
+ return `<svg viewBox="${vb||'440 40 440 820'}" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Releul Sinotimer SVP-688W">${extra.under||''}${SINO_STATIC.replaceAll("id='st","id='"+p+"st").replaceAll('url(#st','url(#'+p+'st')}
+ ${extra.nowires?'':w('M565 '+(extra.top??40)+' V129','#2f6bff')+w('M755 '+(extra.top??40)+' V129','#ff3b30')+w('M565 766 V'+(extra.bot??860),'#2f6bff')+w('M755 766 V'+(extra.bot??860),'#ff3b30')}${(extra.paths||[]).map(([d,c])=>w(d,c)).join('')}
+ ${L('kwh',724,341,46,'#ff3b30','0.0')}${L('v',582,401,42,'#6f8cff','230')}${L('ma',724,401,40,'#5fdc5f','0')}${L('a',578,454,40,'#5fdc5f','0.00')}${L('st',724,453,40,'#5fdc5f',' ON')}
+ ${leds}<rect id="${p}pw" x="736" y="575" width="62" height="54" rx="8" fill="none" stroke="#ff5a3c" stroke-width="3" style="filter:drop-shadow(0 0 8px rgba(255,80,60,.9))"/><rect id="${p}btn" x="736" y="575" width="62" height="54" fill="transparent" style="cursor:pointer"/>${extra.over||''}</svg>`;}
+function sinoSet(p,o){const g=id=>document.getElementById(p+id);if(!g('v'))return;
+ g('kwh').textContent=o.kwh.toFixed(1);g('v').textContent=Math.round(o.v);g('ma').textContent=Math.round(o.ma);g('a').textContent=o.a.toFixed(2);g('st').textContent=o.on?' ON':'OFF';g('st').setAttribute('fill',o.on?'#5fdc5f':'#ff3b30');
+ const L=[[o.p>0,'#ff3b30'],[true,'#ff3b30'],[o.v>0,'#ff3b30'],[o.a>0,'#4c7dff'],[o.ma>0||o.fault,'#ff3b30']];
+ L.forEach(([on,c],i)=>{const e=g('led'+i);e.setAttribute('fill',on?c:'#9aa1a8');e.style.filter=on?`drop-shadow(0 0 6px ${c})`:'none';});
+ g('pw').style.display=o.on?'':'none';}
+
 const $=id=>document.getElementById(id);
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('active',s.id===b.dataset.t));window.scrollTo(0,0);});
 const f=(x,d)=>Number(x).toFixed(d).replace('.',',');
@@ -560,6 +531,18 @@ function dec(s){const r=atob(s.trim());if(r.length!==8)throw new Error('Pachetul
   return {b,V:(b[0]*256+b[1])/10,I:(b[2]*65536+b[3]*256+b[4])/1000,P:(b[5]*65536+b[6]*256+b[7])/10000};}
 const hex=b=>b.map(x=>x.toString(16).padStart(2,'0').toUpperCase()).join(' ');
 
+
+/* ---- desenul aparatului (același ca în dashboardul HA) ---- */
+const box=(x,y,w,h,f,s,t1,t2,c)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="18" fill="${f}" stroke="${s}" stroke-width="2"/><text x="${x+w/2}" y="${y+h/2-6}" text-anchor="middle" font-size="30" font-weight="700" fill="${c||'#0b2f4a'}">${t1}</text><text x="${x+w/2}" y="${y+h/2+30}" text-anchor="middle" font-size="22" fill="#5b6b7b">${t2}</text>`;
+$('schemaDev').innerHTML=sinoSVG('h','0 30 1600 850',{nowires:true,
+ paths:[['M340 345 H395 V84 H755 V129','#ff3b30'],['M340 375 H420 V97 H565 V129','#2f6bff'],['M755 766 V800 H1100 V650 H1180','#ff3b30'],['M565 766 V840 H1130 V720 H1180','#2f6bff']],
+ under:box(40,270,300,180,'#e0f4f4','#00838f','Rețea','230 V / 50 Hz')+box(1180,580,300,190,'#fff4e0','#d97706','Sarcină','R / L / mixtă')+box(1180,150,330,150,'#0b2f4a','#0b2f4a','Home Assistant','LocalTuya · TCP 6668','#fff')
+  +'<path d="M850 300 H1100 V225 H1170" fill="none" stroke="#0b2f4a" stroke-width="3" stroke-dasharray="10 8"/><path d="M1162 215l14 10-14 10z" fill="#0b2f4a"/><text x="1000" y="288" font-size="22" fill="#5b6b7b" text-anchor="middle">Wi-Fi (LAN, fără cloud)</text>'
+  +'<text x="368" y="335" font-size="24" font-weight="700" fill="#ff3b30">L</text><text x="368" y="408" font-size="24" font-weight="700" fill="#2f6bff">N</text>'
+  +'<text x="880" y="420" font-size="20" fill="#d97706">tor diferențial ΔI = I_L − I_N</text><path d="M876 412 H845" stroke="#d97706" stroke-width="2"/>'});
+sinoSet('h',{kwh:0,v:225,ma:0,a:0.02,on:true,p:0});
+$('simDev').innerHTML=sinoSVG('s','440 30 440 840');
+
 /* ---- simulator ---- */
 const FAULTS=['short_circuit_alarm','surge_alarm','overload_alarm','leakagecurr_alarm','temp_dif_fault','fire_alarm','high_power_alarm','self_test_alarm'];
 let on=true,E=0,fault=0,last=Date.now();
@@ -568,10 +551,7 @@ function sim(){
   $('sVv').textContent=f(V,1);$('sIv').textContent=f(+$('sI').value,3);$('sPFv').textContent=f(pf,2);$('sLv').textContent=f(+$('sL').value,1);
   if(on&&L>=th){on=false;fault|=1<<3;$('sMsg').innerHTML='<b style="color:#b42318">Declanșare:</b> ΔI = '+f(L,1)+' mA ≥ IΔn = '+th+' mA. Bitul 3 (leakagecurr_alarm) devine 1.';return sim();}
   const P=V*I*pf/1000,S=V*I,Q=Math.sqrt(Math.max(S*S-(P*1000)**2,0));
-  $('dV').textContent=V.toFixed(1);$('dI').textContent=I.toFixed(3);$('dP').textContent=P.toFixed(4);$('dL').textContent=Math.round(L);$('dE').textContent=E.toFixed(2);
-  $('dS').textContent=on?'ON':'OFF';$('dS').setAttribute('fill',on?'#7cf3c0':'#fca5a5');
-  $('lever').setAttribute('fill',on?'#15803d':'#b42318');$('leverT').textContent=on?'I':'O';
-  $('ledA').setAttribute('fill',fault?'#ef4444':'#4b5563');$('ledP').setAttribute('fill',on?'#22c55e':'#4b5563');
+  sinoSet('s',{kwh:E,v:V,ma:L,a:I,on,p:P,fault});
   $('sCalc').innerHTML=`<tr><th>S = V·I</th><td>${f(S,1)} VA</td></tr><tr><th>P</th><td>${f(P*1000,1)} W</td></tr><tr><th>λ = P/S</th><td>${S>0?f(P*1000/S,3):'–'}</td></tr><tr><th>Q</th><td>${f(Q,1)} var</td></tr><tr><th>Banda EN 50160</th><td>${V>=207&&V<=253?'<span class="tag go">în 230 V ± 10 %</span>':'<span class="tag wait">în afara benzii</span>'}</td></tr><tr><th>R<sub>f</sub> = V/ΔI</th><td>${+$('sL').value>0?f(V/+$('sL').value,2)+' kΩ':'–'}</td></tr>`;
   const e=enc(V,I,P);$('sRaw').textContent=e.b64;$('sHex').textContent=hex(e.b);
   $('sFault').textContent='valoare = '+fault+'\n'+FAULTS.map((n,i)=>'bit '+i+' '+n+' = '+(fault>>i&1)).join('\n');
@@ -579,7 +559,7 @@ function sim(){
 ['sV','sI','sPF','sL','sTh'].forEach(i=>$(i).oninput=sim);
 $('sTest').onclick=()=>{if(!on){$('sMsg').textContent='Releul este deja deschis.';return;}on=false;fault|=1<<7;$('sMsg').innerHTML='<b>TEST:</b> dezechilibru creat intenționat, releul a declanșat (bitul 7 self_test_alarm).';sim();};
 $('sReset').onclick=()=>{if(+$('sL').value>=+$('sTh').value){$('sMsg').textContent='Defectul persistă (ΔI ≥ IΔn): reanclanșarea nu ține. Reduceți ΔI.';return;}on=true;fault=0;$('sMsg').textContent='Releu reanclanșat, alarme șterse.';sim();};
-setInterval(()=>{const now=Date.now();if(on)E+=(+$('sV').value*+$('sI').value*+$('sPF').value/1000)*((now-last)/3.6e6)*60;last=now;$('dE').textContent=E.toFixed(2);},1000);
+setInterval(()=>{const now=Date.now();if(on)E+=(+$('sV').value*+$('sI').value*+$('sPF').value/1000)*((now-last)/3.6e6)*60;last=now;sim();},1000);
 
 /* ---- decodor ---- */
 function doDec(){try{const d=dec($('dIn').value);$('dMsg').textContent='';
@@ -625,6 +605,7 @@ $('fUGo').onclick=()=>{const a=$('fU').value.split(/[\s,;]+/).map(x=>+x).filter(
   const m=a.reduce((x,y)=>x+y)/a.length,inb=a.filter(x=>x>=207&&x<=253).length;
   $('fUOut').innerHTML=`<table><tr><th>n</th><td>${a.length}</td><th>medie</th><td>${f(m,2)} V</td></tr><tr><th>min</th><td>${f(Math.min(...a),1)} V</td><th>max</th><td>${f(Math.max(...a),1)} V</td></tr><tr><th>în 230 V ± 10 %</th><td colspan="3">${f(100*inb/a.length,1)} % ${inb/a.length>=0.95?'<span class="tag go">≥ 95 %</span>':'<span class="tag wait">&lt; 95 %</span>'}</td></tr></table>`;};
 
+$('sbtn').onclick=()=>{if(on){on=false;$('sMsg').textContent='Releu oprit de la butonul de pe aparat.';sim();}else $('sReset').onclick();};
 sim();doDec();variant();
 
 </script></body></html>
