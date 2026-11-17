@@ -16,7 +16,7 @@ Portal: https://argatuflorin.github.io/CONECTLAB/
 
 | Cod | Modul | Aplicație |
 |---|---|---|
-| CE01 | Protecție diferențială și măsură IoT (Sinotimer SVP-688W) – din proiectul CL-P01 | în pregătire |
+| CE01 | Protecție diferențială, măsură și IoT local (Sinotimer SVP-688W) – din proiectul CL-P01 | [CONECTLAB_CE01_Protectie_Diferentiala_Masura_IoT_v1.0.html](https://argatuflorin.github.io/CONECTLAB/CE01/CONECTLAB_CE01_Protectie_Diferentiala_Masura_IoT_v1.0.html) |
 
 ## Proiecte ConectLab (CL-P)
 
