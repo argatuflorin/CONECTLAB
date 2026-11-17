@@ -22,7 +22,7 @@ Portal: https://argatuflorin.github.io/CONECTLAB/
 
 | Cod | Proiect | Aplicație |
 |---|---|---|
-| CL-P01 | Sinotimer SVP-688W local, fără cloud | [conectlab-upb.github.io/ConectLab-01-Sinotimer-Local](https://conectlab-upb.github.io/ConectLab-01-Sinotimer-Local/) |
+| CL-P01 | Sinotimer SVP-688W local, fără cloud | [CONECTLAB_CL-P01_Sinotimer_Local_v1.0.html](https://conectlab-upb.github.io/ConectLab-01-Sinotimer-Local/CONECTLAB_CL-P01_Sinotimer_Local_v1.0.html) |
 
 Aplicațiile rulează local în browser; nu transmit date și nu trimit note.
 
