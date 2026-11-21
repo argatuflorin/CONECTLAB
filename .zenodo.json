@@ -1,16 +1,25 @@
 {
   "title": "ConectLab EB104 – module comune (M0x)",
   "upload_type": "software",
-  "description": "Module didactice comune ale laboratorului ConectLab EB104 (UPB, Facultatea de Inginerie Electrică, DMAECS): Home Assistant, IoT și automatizări, folosite în cursuri și lucrări de licență.",
+  "description": "Module didactice comune ale laboratorului ConectLab EB104 (UPB): Home Assistant, IoT și automatizări, folosite în cursuri și lucrări de licență.",
   "creators": [
     {
       "name": "Argatu, Florin-Ciprian",
       "orcid": "0000-0003-0606-6273",
+      "affiliation": "National University of Science and Technology POLITEHNICA Bucharest"
+    },
+    {
+      "name": "Adochiei, Felix-Constantin",
       "affiliation": "National University of Science and Technology POLITEHNICA Bucharest"
     }
   ],
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "language": "ron",
-  "keywords": ["ConectLab", "Home Assistant", "IoT", "laborator"]
+  "keywords": [
+    "ConectLab",
+    "Home Assistant",
+    "IoT",
+    "laborator"
+  ]
 }
