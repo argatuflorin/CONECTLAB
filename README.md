@@ -28,3 +28,12 @@ Portal: https://argatuflorin.github.io/CONECTLAB/
 Aplicațiile rulează local în browser; nu transmit date și nu trimit note.
 
 Codurile vechi M01–M03 (folderele M0x/) redirecționează automat către HA01–HA03.
+
+<!-- licenta-citare -->
+## Licență și citare
+
+© 2026 Florin-Ciprian Argatu ([ORCID 0000-0003-0606-6273](https://orcid.org/0000-0003-0606-6273)) și Felix-Constantin Adochiei ([ORCID 0000-0001-8176-0113](https://orcid.org/0000-0001-8176-0113)), ConectLab EB104 – Universitatea Națională de Știință și Tehnologie POLITEHNICA București, Facultatea de Inginerie Electrică.
+
+Materialul este publicat sub licența [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): poate fi distribuit cu citarea autorilor, doar în scop necomercial și fără versiuni modificate. Detalii în [`LICENSE`](LICENSE).
+
+**Citare:** folosiți butonul *Cite this repository* (dreapta sus, generat din [`CITATION.cff`](CITATION.cff)). DOI-ul permanent (Zenodo) se adaugă la primul release.
