@@ -1,5 +1,7 @@
 # ConectLab EB104 – module comune pe familii (HA, CE, …) și proiecte (CL-P)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24411945.svg)](https://doi.org/10.5281/zenodo.24411945)
+
 Aplicații interactive HTML folosite de mai multe discipline și ca pas de început pentru lucrările de licență și disertație. UPB, Facultatea de Inginerie Electrică.
 
 Portal: https://argatuflorin.github.io/CONECTLAB/
@@ -36,4 +38,4 @@ Codurile vechi M01–M03 (folderele M0x/) redirecționează automat către HA01�
 
 Materialul este publicat sub licența [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): poate fi distribuit cu citarea autorilor, doar în scop necomercial și fără versiuni modificate. Detalii în [`LICENSE`](LICENSE).
 
-**Citare:** folosiți butonul *Cite this repository* (dreapta sus, generat din [`CITATION.cff`](CITATION.cff)). DOI-ul permanent (Zenodo) se adaugă la primul release.
+**Citare:** folosiți butonul *Cite this repository* (dreapta sus, generat din [`CITATION.cff`](CITATION.cff)). DOI permanent (Zenodo, toate versiunile): [10.5281/zenodo.24411945](https://doi.org/10.5281/zenodo.24411945).
