@@ -13,6 +13,7 @@ Portal: https://argatuflorin.github.io/CONECTLAB/
 | HA01 | Instalarea Home Assistant (Raspberry Pi · VMware Workstation · Proxmox VE) | [CONECTLAB_HA01_Instalare_Home_Assistant_v1.1.html](https://argatuflorin.github.io/CONECTLAB/HA01/CONECTLAB_HA01_Instalare_Home_Assistant_v1.1.html) |
 | HA02 | Apps esențiale Home Assistant (MQTT, ESPHome, InfluxDB, Grafana, Node-RED, DuckDNS, Tailscale, WireGuard) | [CONECTLAB_HA02_Apps_Esentiale_Home_Assistant_v1.0.html](https://argatuflorin.github.io/CONECTLAB/HA02/CONECTLAB_HA02_Apps_Esentiale_Home_Assistant_v1.0.html) |
 | HA03 | Home Assistant pe laptop și Growatt SPF prin Modbus RS485 (convertor USB / Waveshare ESP32-S3-RS485-CAN), fără Solar Assistant | [CONECTLAB_HA03_HA_Laptop_Growatt_Modbus_v1.2.html](https://argatuflorin.github.io/CONECTLAB/HA03/CONECTLAB_HA03_HA_Laptop_Growatt_Modbus_v1.2.html) |
+| HA04 | Citirea valorilor pe 32 de biți prin Modbus (două registre de 16 biți, U_DWORD / U_DWORD_R) – cazul luxmetrului RS485, SIERA B | [CONECTLAB_HA04_Citire_Modbus_32biti_v1.3.html](https://argatuflorin.github.io/CONECTLAB/HA04/CONECTLAB_HA04_Citire_Modbus_32biti_v1.3.html) |
 
 ## CE · Calitatea energiei și protecții
 
@@ -29,7 +30,7 @@ Portal: https://argatuflorin.github.io/CONECTLAB/
 
 Aplicațiile rulează local în browser; nu transmit date și nu trimit note.
 
-Codurile vechi M01–M03 (folderele M0x/) redirecționează automat către HA01–HA03.
+Codurile vechi M01–M03 (folderele M0x/) redirecționează automat către HA01–HA03; modulele noi primesc direct coduri pe teme (HA04, CE01…).
 
 <!-- licenta-citare -->
 ## Licență și citare
